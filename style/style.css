@@ -1,0 +1,59 @@
+.navbar {
+  font-size: smaller;
+  margin: 1% 1% 12% 1%;
+}
+.leftnav {
+  display: flex;
+  justify-content: left;
+}
+.rightnav {
+  display: flex;
+  justify-content: end;
+}
+.bscbutton {
+  border: none;
+  background: none;
+}
+.bscbutton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.rightnav .bluebutton {
+  border: none;
+  background: #4a4ad3;
+  color: white;
+  padding: 8px;
+}
+.googlelogo {
+  display: block;
+  margin: 0 auto;
+}
+.searchbox {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 15px;
+  margin: 3% 30%;
+  padding: 8px;
+}
+.searchbox:hover {
+  box-shadow: 0px 0px 5px #888888;
+}
+.searchbar {
+  border: none;
+  width: 90%;
+}
+.srclogo {
+  width: 4%;
+  height: 4%;
+}
+.voicelogo {
+  width: 4%;
+  height: 4%;
+}
+.footerbar {
+}
+.leftftr {
+}
+.rightftr {
+}
