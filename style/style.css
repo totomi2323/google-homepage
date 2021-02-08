@@ -1,24 +1,38 @@
+body {
+  margin: 0px;
+}
 .navbar {
   font-size: smaller;
-  margin: 1% 1% 12% 1%;
-}
-.leftnav {
+  margin: 2% 1% 8% 2%;
   display: flex;
-  justify-content: left;
+  align-content: center;
 }
+
 .rightnav {
-  display: flex;
-  justify-content: end;
+  
+  position: relative;
+  left: 72%;
+  margin-left: 8px;
 }
 .bscbutton {
   border: none;
   background: none;
 }
+  .glogo{
+border-radius: 2px;
+height: 30px;
+width: 30px;
+
+}
+.logobutton{
+  background-color: transparent;
+  border-style: none;
+}
 .bscbutton:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-.rightnav .bluebutton {
+.bluebutton {
   border: none;
   background: #4a4ad3;
   color: white;
@@ -42,6 +56,7 @@
 .searchbar {
   border: none;
   width: 90%;
+  
 }
 .srclogo {
   width: 4%;
@@ -51,9 +66,32 @@
   width: 4%;
   height: 4%;
 }
+.centerbtn {
+  display: flex;
+  justify-content: center;
+}
+.centerbtn .space {
+  margin: 0 1%;
+  padding: 0.8%;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #d8d2d2;
+}
+.centerbtn .space:hover{
+  box-shadow: 0px 0px 5px #888888;
+  background-color: #ece5e5;
+  
+}
 .footerbar {
+  font-size: smaller;
+  margin-top: 12.8%;
+  background: #bbb9b9;
+  padding: 15px;
 }
-.leftftr {
-}
+
+
 .rightftr {
+  
+  position: relative;
+  left: 65%;
 }
